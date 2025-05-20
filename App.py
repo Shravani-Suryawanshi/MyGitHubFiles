@@ -1,6 +1,6 @@
-import streamlit as st # core package used in this project
+import streamlit as st 
 import spacy
-nlp = spacy.load("en_core_web_sm")  # ✅ No warnings
+nlp = spacy.load("en_core_web_sm") 
 import pandas as pd
 import base64, random
 import time,datetime
